@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>EssayOracle</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="navbar">
+    <h1 id="title"><a href="index.html">EssayOracle</a></h1>
+  </div>
+  <div id="Home" class="outlineHome">
+    <form class="outlineForm">
+      <h1>Generate Outline</h1>
+      <label>Enter your essay prompt:</label>
+      <input class="promptInput outlineInput" />
+      <label>Enter your idea:</label>
+      <input class="brainstormInput outlineIdea" />
+      <label>Information about yourself:</label>
+      <textarea rows='12' class="outlineArea"></textarea>
+      <button class='outlineSubmit'>Submit</button>
+    </form>
+    <div class="outlineResults">
+      <h1>Outline:</h1>
+      <hr />
+      <div class="outliningResults"><div class="loader"></div></div>
+    </div>
+    </div>
+  </div>
+  <script type="module" src="outline.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>EssayOracle</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="navbar">
+    <h1 id="title"><a href="index.html">EssayOracle</a></h1>
+  </div>
+  <div id="Home" class="outlineHome analysisHome">
+    <form class="analyzeForm">
+      <h1>Analyze Essay</h1>
+      <label>Enter your essay prompt:</label>
+      <input class="promptInput outlineInput" />
+      <label>Information about yourself:</label>
+      <textarea rows='5' class="outlineArea"></textarea>
+      <label>Your essay:</label>
+      <textarea rows='13' class="essayArea"></textarea>
+      <button class='analyzeSubmit'>Submit</button>
+    </form>
+    <div class="outlineResults analysisResults">
+      <h1>Analysis:</h1>
+      <hr />
+      <div class="outliningResults analyzingResults"><div class="loader"></div></div>
+    </div>
+    </div>
+  </div>
+  <script type="module" src="analyze.js"></script>
+</body>
+</html>
